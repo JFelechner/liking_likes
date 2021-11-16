@@ -1,0 +1,59 @@
+/*****************PAGE*****************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/********* Utility Styles **********/
+
+
+.boxflex {
+    display: flex;
+    gap: 1.25em;
+}
+
+.textflex{
+    display: flex;
+    gap: .25em;
+}
+
+.frame{
+    min-height: 5em;
+    border-color: black;
+    border-style: solid;
+    border-width: .125em;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+
+/**********SomeUser*************/
+
+.someUserContent{
+    width: 20em;
+    margin: 1.5em auto;
+    flex-flow: column;
+    align-content: space-between;
+}
+
+.someUserHeader{
+    justify-content: space-between;
+}
+
+.someUserText{
+    justify-content:start;
+}
+
+.count{
+    align-items: center;
+}
+
+.like{
+    color: black;
+    background-color:gold;
+    box-shadow: .1em .1em .1em black;
+    width: 4em;
+    height: 2em;
+}
