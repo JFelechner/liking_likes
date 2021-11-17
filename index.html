@@ -10,20 +10,81 @@
 </head>
 
 <body>
-    <div class="someUserContent frame boxflex">
-        <div class="someUserHeader boxflex">
-            <div class="title">
-                <h3>Some User</h3>
-            </div>
-            <div class="likeTracker boxflex">
-                <h4 class="count textflex">
-                    <p id="number"></p> like(s)
-                </h4>
-                <button class="like" onclick="increaseLikes()">Like</button>
+    <div class="header">
+        <h2>Network</h2>
+    </div>
+    <div class="feedHeader boxflex">
+        <h2>Your Feed</h2>
+    </div>
+    <div class="main boxflex">
+        <div class="mainLeft">
+            <div class="myProfile frame boxflex">
+                <img src="user-circle.png" alt="Profile Picture">
+                <p><a href="">Add an avatar</a></p>
+                <h2>James Doe</h2>
             </div>
         </div>
-        <div class="someUserText textflex">
-            <p>This is some filler text, it can say anything we like</p>
+        <div class="mainRight">
+            <div class="users">
+                <div class="firstUser">
+                    <div class="userContent frame">
+                        <div class="userHeader boxflex">
+                            <div class="title">
+                                <h2>Neil M</h2>
+                            </div>
+                            <div class="likeTracker boxflex">
+                                <h4 class="count textflex">
+                                    <p id="number1"></p> like(s)
+                                </h4>
+                                <button class="like" onclick="increaseLikesUser1()">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="userText">
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondUser">
+                    <div class="userContent frame">
+                        <div class="userHeader boxflex">
+                            <div class="title">
+                                <h2>Nichole K</h2>
+                            </div>
+                            <div class="likeTracker boxflex">
+                                <h4 class="count textflex">
+                                    <p id="number2"></p> like(s)
+                                </h4>
+                                <button class="like" onclick="increaseLikesUser2()">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="userText">
+                            <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdUser">
+                    <div class="userContent frame">
+                        <div class="userHeader boxflex">
+                            <div class="title">
+                                <h2>Jim R</h2>
+                            </div>
+                            <div class="likeTracker boxflex">
+                                <h4 class="count textflex">
+                                    <p id="number3"></p> like(s)
+                                </h4>
+                                <button class="like" onclick="increaseLikesUser3()">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="userText">
+                            <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
